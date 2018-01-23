@@ -18,7 +18,7 @@ db:
   environment:
     MYSQL_ROOT_PASSWORD: root
     MYSQL_USER: admin
-    MYSQL_PASSWORD: test
-    MYSQL_DATABASE: database
+    MYSQL_PASSWORD: root
+    MYSQL_DATABASE: perpus
   ports:
     - "8889:3306"
